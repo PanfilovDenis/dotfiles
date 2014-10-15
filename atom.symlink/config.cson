@@ -32,15 +32,10 @@
     'linter'
     'autosave'
   ]
-  'projectHome': '/Users/den/projects'
-'exception-reporting':
-  'userId': '21dc86da-7773-2531-9a56-bb47581dd373'
 'release-notes':
   'viewedVersion': '0.80.0'
 'welcome':
   'showOnStartup': false
-'metrics':
-  'userId': '800700f416f08a4bad81c5b889b261e062f8d81a'
 'jshint':
   'validateOnlyOnSave': true
 'linter':
