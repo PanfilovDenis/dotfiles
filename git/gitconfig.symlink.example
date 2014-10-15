@@ -1,6 +1,6 @@
 [user]
-	name = AUTHORNAME
-	email = AUTHOREMAIL
+  name = AUTHORNAME
+  email = AUTHOREMAIL
 [push]
   default = current
 [alias]
@@ -18,22 +18,22 @@
   excludesfile = ~/.gitignore
   editor = vim
 [color]
-    diff = auto
-    status = auto
-    branch = auto
-    interactive = auto
-    ui = false
-    pager = true
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = false
+  pager = true
 [color "branch"]
-   current = yellow reverse
-   local = yellow
-   remote = green
+  current = yellow reverse
+  local = yellow
+  remote = green
 [color "diff"]
-   meta = yellow bold
-   frag = cyan bold
-   old = red bold
-   new = green bold
+  meta = yellow bold
+  frag = cyan bold
+  old = red bold
+  new = green bold
 [color "status"]
-   added = yellow
-   changed = green
-   untracked = cyan
+  added = yellow
+  changed = green
+  untracked = cyan
