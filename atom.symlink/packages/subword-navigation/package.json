@@ -1,0 +1,32 @@
+{
+  "name": "subword-navigation",
+  "main": "./lib/main",
+  "version": "1.2.1",
+  "description": "Navigate camelCase and snake_case words",
+  "activationEvents": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dsandstrom/atom-subword-navigation"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.125.0"
+  },
+  "dependencies": {
+    "fs-plus": "2.x",
+    "temp": "~0.6.0",
+    "underscore-plus": "1.x"
+  },
+  "readme": "# Subword Navigation\n###### An Atom Package - [Atom.io](https://atom.io/packages/subword-navigation) : [Github](https://github.com/dsandstrom/atom-subword-navigation) : [![Build Status](https://travis-ci.org/dsandstrom/atom-subword-navigation.svg?branch=master)](https://travis-ci.org/dsandstrom/atom-subword-navigation)\n\n**Harness the power of ALT as you battle the mighty camelCase and treacherous snake_case.**\n\nThis package allows you to move the cursor(s) to beginning and end of words, but also it stops at subwords (camelCase and snake_case).\n\n- Holding `shift` will highlight as you move left and right.\n\n- Along with highlight, you can delete to the previous/next subword.  However, I did not assign keybindings to them; they are BYOK to prevent conflicts.  Command names are at the bottom of the page.\n\n- Issues and pull requests are welcome.\n\n### Instructions\n\n|  Linux/Win  |            |            |\n|-------------|----------------|-----------------|\n| Move around | `alt-left`       | `alt-right `   |\n| Highlight   | `alt-shift-left` | `alt-shift-right` |\n| Delete      | *unset*          | *unset* |\n\n|     Mac     |            |            |\n|-------------|----------------|-----------------|\n| Move around | `ctrl-alt-left`  | `alt-right`       |\n| Highlight   | `ctrl-alt-shift-left` | `ctrl-alt-shift-right` |\n| Delete      | *unset* | *unset* |\n\n\n### Dependencies\nRequires Atom v0.126 and up\n\n\n### Commands\n```coffee\n'subword-navigation:move-right'\n'subword-navigation:move-left'\n'subword-navigation:select-right'\n'subword-navigation:select-left'\n'subword-navigation:delete-right'\n'subword-navigation:delete-left'\n```\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/dsandstrom/atom-subword-navigation/issues"
+  },
+  "homepage": "https://github.com/dsandstrom/atom-subword-navigation",
+  "_id": "subword-navigation@1.2.1",
+  "dist": {
+    "shasum": "b62a11e3b2182cfeb8ea2afa2678a4a849fdf485"
+  },
+  "_resolved": "/private/var/folders/g5/ds9xp21j5r563kt4sm1481r40000gn/T/d-114915-27936-iq0yht/package.tgz",
+  "_from": "/private/var/folders/g5/ds9xp21j5r563kt4sm1481r40000gn/T/d-114915-27936-iq0yht/package.tgz"
+}
