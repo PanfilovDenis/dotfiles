@@ -1,0 +1,5 @@
+alias cdv='~/vagrant'
+alias v='vagrant'
+alias vup='cdv && vagrant up'
+alias vssh='cdv && vagrant ssh'
+alias vhalt='cdv && vagrant halt'
