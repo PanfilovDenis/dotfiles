@@ -1,0 +1,24 @@
+'.editor':
+  'cmd-x': 'editor:cut-to-end-of-line'
+  'cmd-up': 'block-travel:move-up'
+  'cmd-down': 'block-travel:move-down'
+  'cmd-left': 'pane:show-previous-item'
+  'cmd-right': 'pane:show-next-item'
+  'cmd-b': 'git-blame:toggle'
+
+'.autocomplete-plus input.hidden-input':
+  'enter': 'autocomplete-plus:confirm'
+
+'body':
+  'cmd-left': 'pane:show-previous-item'
+  'cmd-right': 'pane:show-next-item'
+
+'.platform-darwin':
+  'cmd-t': 'tree-view:reveal-active-file'
+
+'.platform-darwin .editor':
+  'alt-right': 'subword-navigation:move-right'
+  'alt-left': 'subword-navigation:move-left'
+
+'.tree-view':
+  'cmd-t': 'tree-view:toggle-focus'

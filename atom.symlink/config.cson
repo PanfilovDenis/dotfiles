@@ -1,0 +1,62 @@
+'editor':
+  'fontSize': 14
+  'invisibles': {}
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'monokai'
+  ]
+  'ignoredNames': [
+    '.git'
+    '.svn'
+    '.DS_Store'
+  ]
+  'disabledPackages': [
+    'autoflow'
+    'wrap-guide'
+    'language-c'
+    'language-coffee-script'
+    'language-gfm'
+    'language-go'
+    'language-java'
+    'language-mustache'
+    'language-objective-c'
+    'language-perl'
+    'language-php'
+    'language-python'
+    'language-toml'
+    'open-on-github'
+    'package-generator'
+    'file-icons'
+    'linter-jshint'
+    'linter'
+    'autosave'
+  ]
+  'projectHome': '/Users/den/projects'
+'exception-reporting':
+  'userId': '21dc86da-7773-2531-9a56-bb47581dd373'
+'release-notes':
+  'viewedVersion': '0.80.0'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': '800700f416f08a4bad81c5b889b261e062f8d81a'
+'jshint':
+  'validateOnlyOnSave': true
+'linter':
+  'lintOnChange': false
+'autosave':
+  'enabled': false
+'autocomplete-plus':
+  'autoActivationDelay': 200
+'remember-session':
+  'path': ''
+  'x': 0
+  'y': 22
+  'tabs': ''
+  'selectedTab': ''
+  'width': 1279
+  'height': 774
+  'treeWidth': 199
+'whitespace':
+  'ignoreWhitespaceOnCurrentLine': false

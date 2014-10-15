@@ -1,0 +1,39 @@
+[user]
+	name = AUTHORNAME
+	email = AUTHOREMAIL
+[push]
+  default = current
+[alias]
+  co = checkout
+  br = branch
+  ci = commit
+  st = status
+  unstage = reset HEAD --
+  last = log -1 HEAD
+  up = pull --rebase
+  put = push origin HEAD
+  lg = log --color --pretty=format:\"%Creset%h - %Cblue%an, %Cgreen%ar : %Creset %s\"
+  diffc = diff --cached
+[core]
+  excludesfile = ~/.gitignore
+  editor = vim
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+    ui = false
+    pager = true
+[color "branch"]
+   current = yellow reverse
+   local = yellow
+   remote = green
+[color "diff"]
+   meta = yellow bold
+   frag = cyan bold
+   old = red bold
+   new = green bold
+[color "status"]
+   added = yellow
+   changed = green
+   untracked = cyan

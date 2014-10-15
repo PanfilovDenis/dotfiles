@@ -1,0 +1,12 @@
+".source.js":
+  "console.log":
+    "prefix": "i"
+    "body": "console.log(${1:obj});"
+
+  "test":
+    "prefix": "f"
+    "body": "function(${1:}) {\n\n${0}}"
+
+  "return":
+    "prefix": "r"
+    "body": "return ${1:};"
