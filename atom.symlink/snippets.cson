@@ -1,7 +1,7 @@
 ".source.js":
   "console.log":
     "prefix": "i"
-    "body": "console.log(${1:obj});"
+    "body": "console.info(${1:obj});"
 
   "test":
     "prefix": "f"
@@ -10,3 +10,7 @@
   "return":
     "prefix": "r"
     "body": "return ${1:};"
+
+  "return":
+    "prefix": "b"
+    "body": "bind(${1:this})"

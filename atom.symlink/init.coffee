@@ -14,6 +14,7 @@
 #     editor.setSoftWrap(true)
 
 
+
 # we need a reference to the snippets package
 snippetsPackage = require(atom.packages.getLoadedPackage('snippets').path)
 

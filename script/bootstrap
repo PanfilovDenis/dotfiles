@@ -9,6 +9,7 @@ set -e
 
 echo ''
 
+
 info () {
   printf "  [ \033[00;34m..\033[0m ] $1"
 }
@@ -32,11 +33,14 @@ setup_gitconfig () {
   then
     info 'setup gitconfig'
 
-
-    user ' - What is your git author name?'
-    read -e git_authorname
-    user ' - What is your git author email?'
-    read -e git_authoremail
+    git_authorname=$2 git_authoremail=$4
+    if ! [ -n "git_authorname" ] && [ -n "git_authoremail" ];
+    then
+      user ' - What is your git author name?'
+      read -e git_authorname
+      user ' - What is your git author email?'
+      read -e git_authoremail
+    fi
 
     sed -e "s/AUTHORNAME/$git_authorname/g" -e "s/AUTHOREMAIL/$git_authoremail/g" git/gitconfig.symlink.example > git/gitconfig.symlink
 
