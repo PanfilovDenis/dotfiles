@@ -25,5 +25,10 @@ do
 done
 
 source $ZSH/oh-my-zsh.sh
-
+rvm use ruby-2.2.2 --default
+redis-server /etc/redis/redis.conf
+ssh-add
+ssh-agent
 unset config_files
+
+export PATH=$PATH:/usr/share/elasticsearch/bin
